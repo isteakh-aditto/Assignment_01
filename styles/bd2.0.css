@@ -27,11 +27,12 @@
     color: rgb(0, 106, 80);
     font-size: 18px;
     font-weight: 600;
-    border: 1px solid rgb(0, 106, 80);
+    /* border:  1px solid rgb(0, 106, 80); */
     border-radius: 8px;
     padding: 0px 20px;
     margin: 0px;
     cursor: pointer;
+    max-height: 50px;
 }
 
 .hero {
@@ -186,6 +187,7 @@
     margin-right: 160px;
     border-radius: 24px;
     background: rgb(255, 255, 255);
+
 }
 
 .art-one {
@@ -199,4 +201,69 @@
 .part-one {
     margin-left: 40px;
     border-radius: 15px;
+}
+
+.section-five {
+    margin: 0px 160px;
+}
+
+.sec5one {
+    text-align: center;
+}
+
+.sec5two {
+    display: flex;
+    /* text-align: center */
+    justify-content: space-evenly;
+    /* Frame 2087325513 */
+    /* width: 240px; */
+    height: 50%;
+    /* gap: 24; */
+    /* padding: 40px; */
+    margin-bottom: 80px;
+}
+
+.divitaka {
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.underh2 {
+    /* text-align: left; */
+}
+
+.underbatton {
+    background-color: aquamarine;
+    /* border: 10px solid blueviolet; */
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.Tekade {
+    text-align: center;
+    width: 1032px;
+    height: 64px;
+    margin: 0px 124px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    border-radius: 16px;
+}
+
+.tkbaton {
+    height: 50px;
+    width: 90px;
+    /* margin-left: 0px 400px; */
+    font-weight: 600px;
+    margin: auto;
+    box-sizing: border-box;
+    /* border: 1px solid rgba(14, 14, 14, 0.1); */
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    cursor: pointer;
 }
